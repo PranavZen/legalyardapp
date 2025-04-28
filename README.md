@@ -1,4 +1,56 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Legalyard Suite Mobile App
+
+A comprehensive mobile application for legal and finance professionals, featuring multiple independent modules for case management, document management, task planning, finance tracking, and more.
+
+## Features
+
+- **Modular Architecture**: Independent modules for different features
+- **Dark/Light Mode**: Full theme support
+- **Multi-language Support**: Internationalization ready
+- **AI-powered Features**: Smart suggestions, OCR, and more
+- **Offline Support**: Work without an internet connection
+- **Cross-platform**: Works on both iOS and Android
+
+## Modules
+
+- **Case Management**: Manage legal cases, clients, and related documents
+- **Document Vault**: Secure storage for legal documents with version control
+- **Task Planner**: Task management with deadlines, priorities, and assignments
+- **Finance**: Invoice management, time tracking, and billing
+- **Personal Tools**: To-do lists, notes, and more
+
+## Tech Stack
+
+- **React Native CLI**: Core framework
+- **TypeScript**: Type-safe code
+- **Redux Toolkit**: State management
+- **Native Base**: UI components
+- **React Navigation**: Navigation
+- **i18next**: Internationalization
+- **React Native Reanimated**: Animations
+
+## Project Structure
+
+```
+src/
+├── app/                 # Feature modules
+│   ├── auth/            # Authentication module
+│   ├── caseManagement/  # Case management module
+│   ├── documentVault/   # Document management module
+│   ├── taskPlanner/     # Task management module
+│   ├── finance/         # Finance module
+│   ├── more/            # More options module
+│   └── personalTools/   # Personal tools module
+├── components/          # Reusable UI components
+├── services/            # API and other services
+├── store/               # Redux store and slices
+├── navigation/          # Navigation configuration
+├── hooks/               # Custom hooks
+├── assets/              # Static assets
+├── utils/               # Utility functions
+├── config/              # Configuration files
+└── themes/              # Theme configuration
+```
 
 # Getting Started
 
